@@ -1,0 +1,9 @@
+name = "student-score-analytics"
+type = "javascript"
+account_id = "your-account-id"
+[site]
+bucket = "./dist"
+entry-point = "index.html"
+[build]
+command = "pnpm run build"
+cwd = "./student-score-analytics"
